@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/internal/test/assert"
-	"nhooyr.io/websocket/internal/test/wstest"
+	"github.com/cisco-pxgrid/websocket"
+	"github.com/cisco-pxgrid/websocket/internal/test/assert"
+	"github.com/cisco-pxgrid/websocket/internal/test/wstest"
 )
 
 func TestWasm(t *testing.T) {
